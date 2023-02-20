@@ -10,5 +10,5 @@ Pretty simple - clone this repo and run `Launcher.java`. The "art" will follow a
 
 https://user-images.githubusercontent.com/108366703/220001210-d6927845-a766-43f4-8ea6-92cf4524864b.mov
 
-![9A8AEAB4-7503-4973-A932-1665655D85CC_1_105_c](https://user-images.githubusercontent.com/108366703/220009981-ac627e68-3db7-4dc9-94f5-5bb73bfeed84.jpeg)
 ![4B6639D6-D9F7-48CF-BF02-79EC6588202E_1_102_o](https://user-images.githubusercontent.com/108366703/220009993-9d005a1e-75f7-47c0-bf78-25a47fb212fb.jpeg)
+![7839DB00-142B-46F8-8108-A1FE60164840_1_105_c](https://user-images.githubusercontent.com/108366703/220010091-2db34710-9a18-4716-bec1-a553eac2c688.jpeg)
