@@ -8,18 +8,58 @@ public class Walker extends JPanel {
 	}
 
 	public void paintComponent(Graphics myGraphics) {
-
 		super.paintComponent(myGraphics);
-
 		layer(
 				myGraphics,
-				/* input */ 0,
+				/* input */ 5000,
 				/* color */ Color.red,
 				/* special color? */ true,
 				/* special color type */ "cycle",
 				/* blob size */ 75000,
 				/* motion type */ "random",
-				/* shape */ "lines",
+				/* shape */ "fillSquares",
+				/* size scale */ .03,
+				/* randomizer */ 100,
+				/* circle limiter? */ true,
+				/* stuffOutside? */ true,
+				/* circle radius */ 200,
+
+				/* white */ true,
+				/* blue */ false,
+				/* cyan */ false,
+				/* magenta */ false,
+				/* orange */ false,
+				/* pink */ false,
+				/* yellow */ true,
+				/* green */ false,
+				/* marsala */ false,
+				/* radiandOrchid */ false,
+				/* emerald */ false,
+				/* tangerineTango */ false,
+				/* honeysucle */ false,
+				/* turquoise */ false,
+				/* mimosa */ false,
+				/* blueIzis */ false,
+				/* chiliPepper */ false,
+				/* sandDollar */ false,
+				/* blueTurquoise */ false,
+				/* tigerlily */ false,
+				/* aquaSky */ false,
+				/* trueRed */ false,
+				/* fuchsiaRose */ false,
+				/* ceruleanBlue */ false,
+				/* earthGreen */ false,
+				/* earthBlue */ false);
+
+		layer(
+				myGraphics,
+				/* input */ 100000,
+				/* color */ Color.red,
+				/* special color? */ true,
+				/* special color type */ "cycle",
+				/* blob size */ 75000,
+				/* motion type */ "random",
+				/* shape */ "fillCircles",
 				/* size scale */ .7,
 				/* randomizer */ 10,
 				/* circle limiter? */ true,
@@ -50,99 +90,8 @@ public class Walker extends JPanel {
 				/* trueRed */ false,
 				/* fuchsiaRose */ false,
 				/* ceruleanBlue */ false,
-				/* earthGreen */ false,
-				/* earthBlue */ true
-
-		);
-
-		layer(
-				myGraphics,
-				/* input */ 5000000,
-				/* color */ Color.black,
-				/* special color? */ true,
-				/* special color type */ "cycle",
-				/* blob size */ 2000,
-				/* motion type */ "90s",
-				/* shape */ "lines",
-				/* size scale */ 2,
-				/* randomizer */ 3,
-				/* circle limiter? */ true,
-				/* stuffOutside? */ false,
-				/* circle radius */ 1000,
-
-				/* red */ true,
-				/* blue */ true,
-				/* cyan */ true,
-				/* magenta */ true,
-				/* orange */ true,
-				/* pink */ true,
-				/* yellow */ true,
-				/* green */ true,
-				/* marsala */ false,
-				/* radiandOrchid */ false,
-				/* emerald */ false,
-				/* tangerineTango */ true,
-				/* honeysucle */ false,
-				/* turquoise */ true,
-				/* mimosa */ false,
-				/* blueIzis */ false,
-				/* chiliPepper */ false,
-				/* sandDollar */ false,
-				/* blueTurquoise */ false,
-				/* tigerlily */ false,
-				/* aquaSky */ false,
-				/* trueRed */ false,
-				/* fuchsiaRose */ false,
-				/* ceruleanBlue */ true,
-				/* earthGreen */ false,
-				/* earthBlue */ false
-
-		);
-
-		layer(
-				myGraphics,
-				/* input */ 0,
-				/* color */ Color.green,
-				/* special color? */ true,
-				/* special color type */ "cycle",
-				/* blob size */ 2000,
-				/* motion type */ "random",
-				/* shape */ "fillCircles",
-				/* size scale */ .3,
-				/* randomizer */ 7,
-				/* circle limiter? */ true,
-				/* stuffOutside? */ true,
-				/* circle radius */ 200,
-
-				/* red */ true,
-				/* blue */ false,
-				/* cyan */ false,
-				/* magenta */ false,
-				/* orange */ false,
-				/* pink */ false,
-				/* yellow */ false,
-				/* green */ false,
-				/* marsala */ false,
-				/* radiandOrchid */ false,
-				/* emerald */ false,
-				/* tangerineTango */ false,
-				/* honeysucle */ false,
-				/* turquoise */ false,
-				/* mimosa */ false,
-				/* blueIzis */ false,
-				/* chiliPepper */ false,
-				/* sandDollar */ false,
-				/* blueTurquoise */ false,
-				/* tigerlily */ false,
-				/* aquaSky */ false,
-				/* trueRed */ false,
-				/* fuchsiaRose */ false,
-				/* ceruleanBlue */ false,
-				/* earthGreen */ false,
-				/* earthBlue */ false
-
-		);
-
+				/* earthGreen */ true,
+				/* earthBlue */ true);
 	}
 
 	public void layer(
@@ -191,7 +140,7 @@ public class Walker extends JPanel {
 
 	{
 		ColorObject[] colorBank = {
-				new ColorObject(Color.white, b1s, "red"),
+				new ColorObject(Color.white, b1s, "white"),
 				new ColorObject(Color.blue, b2s, "blue"),
 				new ColorObject(Color.cyan, b3s, "cyan"),
 				new ColorObject(Color.magenta, b4s, "magenta"),

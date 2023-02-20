@@ -9,7 +9,7 @@ public class Launcher {
 		theGUI.setSize(1000, 1000);
 		theGUI.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-		Walker panel = new Walker(Color.white);
+		Walker panel = new Walker(Color.black);
 
 		Container pane = theGUI.getContentPane();
 		pane.add(panel);
