@@ -4,7 +4,7 @@ This was a project I worked on while I was learning the basics of my first progr
 
 ## Running the program
 
-Pretty simple - clone this repo and run `Launcher.java`. The "art" will follow a few seconds later in a pop-up. The parameters for the artwork can be modified in `Walker.java`, so have fun messing with the settings if you'd like. Here's a sample video: 
+Pretty simple - clone this repo and run `Launcher.java`. The "art" will follow a few seconds later in a pop-up. The parameters for the artwork can be modified in `Walker.java`, so have fun messing with the settings if you'd like to make something colorful (or not). Here's a sample video that's supposed to resemble earth: 
 
 
 
